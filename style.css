@@ -462,11 +462,12 @@ header .logo .logo-text{
     display:flex;
     flex-direction: column;
     height:auto;
+    font-size: .9em;
   }
   .footer .footer-content .footer-section{
   display:block;
   min-height: 350px;
-  }
+}
   .footer .footer-end{
     display: block;
     font-size:.9em;
