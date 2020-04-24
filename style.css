@@ -467,6 +467,11 @@ header .logo .logo-text{
   .footer .footer-content .footer-section{
   display:block;
   min-height: 350px;
+  margin-left:20px;
+
+}
+.footer .footer-section .links{
+  padding-left: 0px;
 }
   .footer .footer-end{
     display: block;
