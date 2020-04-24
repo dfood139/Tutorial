@@ -463,6 +463,7 @@ header .logo .logo-text{
     flex-direction: column;
     height:auto;
     font-size: .9em;
+    padding-left: 10px;
   }
   .footer .footer-content .footer-section{
   display:block;
