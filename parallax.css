@@ -69,7 +69,7 @@ section{
 }
 @media (max-width:768px){
   .parallax1,.parallax2,.parallax3,.parallax4{
-     background-attachment:scroll;
+     background-attachment:fixed;
   }
   
   .heading{
