@@ -1,0 +1,84 @@
+
+html,body{
+  margin:0;
+  padding: 0;
+  font-family: 'Ubuntu',sans-serif;
+  line-height: 1.6em;
+  text-align: center;
+  color:#666;
+  height: 100%;
+}
+.parallax1{
+  background: url("spider.jpg");
+  min-height: 100%;
+}
+.parallax2{
+  background: url("bench.jpg");
+  min-height: 60%;
+}
+.parallax3{
+  background: url("pubg.jpg");
+  min-height: 40%;
+}
+.parallax4{
+  background: url("car.jpg");
+  min-height: 100%;
+}
+.parallax1, .parallax2, .parallax3, .parallax4{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: .75;
+}
+.heading{
+  position: absolute;
+  font-size: 100px;
+  color:#fff;
+  top:38%;
+  text-transform: uppercase;
+  width: 100%;
+  text-shadow: 0 0 10px #fff;
+  letter-spacing: 5px;
+}
+.heading-sub{
+  position: absolute;
+  font-size: 60px;
+  color:#fff;
+  top:45%;
+  text-transform: uppercase;
+  width:100%;
+  text-shadow: 0 0 10px #000;
+  letter-spacing: 5px;
+}
+section{
+  overflow: auto;
+  padding: 50px 80px;
+}
+.col-em{
+  float: left;
+  width: 40%;
+  padding: 0 5%;
+  text-align: justify;
+}
+.dark{
+  overflow: auto;
+  padding: 50px 80px;
+  background-color: #323232;
+  color:#fff;
+}
+@media (max-width:768px){
+
+  .heading{
+    font-size: 2.7em;
+  }
+  .heading-sub{
+    font-size: 2.2rem;
+  }
+  .col-em{
+   width:100%;
+   padding:0;
+   text-align: center;
+  }
+
+}
